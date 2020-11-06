@@ -1,0 +1,22 @@
+{
+  "name": "wa-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kagchi/kag-api": "^1.5.5",
+    "@open-wa/wa-automate": "^3.0.13",
+    "@vitalets/google-translate-api": "^4.0.0",
+    "axios": "^0.21.0",
+    "google-translate-api": "^2.3.0",
+    "node-fetch": "^2.6.1",
+    "node-superfetch": "^0.1.10",
+    "shopee": "^0.1.0"
+  }
+}
