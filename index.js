@@ -1,7 +1,7 @@
 const wa = require('@open-wa/wa-automate');
 const fs = require('fs');
 
-wa.create().then(client => start(client));
+wa.create({qrTimeout: 0}).then(client => start(client));
 
 const prefix = 'v!'
 
