@@ -1,7 +1,7 @@
 const wa = require('@open-wa/wa-automate');
 const fs = require('fs');
 
-wa.create({executablePath: 'C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe',}).then(client => start(client));
+wa.create().then(client => start(client));
 
 const prefix = 'v!'
 
